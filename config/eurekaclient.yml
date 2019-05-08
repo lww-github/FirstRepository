@@ -8,12 +8,4 @@ management:
     web:
       exposure:
         #Spring Boot 2.0 以后，actuator 默认只开启 health 和 info 端点，要使用 refresh 端点需要通过 management 指定
-        include: refresh,health,info,bus-refresh
-spring:
-    rabbitmq:
-        host: 127.0.0.1
-        port: 5672
-        username: guest
-        password: guest
-        virtualHost: /
-        publisherConfirms: true
+        include: refresh,health,info
