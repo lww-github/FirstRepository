@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://192.168.10.244:3306/news_db?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username: root
+      password: abc.123
+      stat-view-servlet:
+        login-username: admin
+        login-password: admin
